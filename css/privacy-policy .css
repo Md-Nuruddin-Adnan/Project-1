@@ -1,0 +1,170 @@
+@font-face {
+  font-family: CircularStd-Book;
+  src: url(../fonts/CircularStd-Book.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: CircularStd-Medium;
+  src: url(../fonts/CircularStd-Medium.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: CircularStd-Bold;
+  src: url(../fonts/CircularStd-Bold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: CircularStd-Black;
+  src: url(../fonts/CircularStd-Black.otf);
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+  
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+
+body {
+  font-family: CircularStd-Book;
+}
+/* basic css end */
+
+/* common css start */
+h2 {
+  font-family: CircularStd-Bold;
+  font-size: 22px;
+  color: #162c58;
+  font-weight: 800;
+  margin:  0 0 25px 0 ;
+}
+
+
+p {
+  font-family: CircularStd-Book;
+  font-size: 16px;
+  color: #4d5868;
+}
+
+.blue-box {
+  width: 20px;
+  height: 20px;
+  background: #a9c819;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding-right: 20px;
+  margin-right: 20px;
+  opacity: 0.5;
+  margin-top: 2px;
+}
+
+.link {
+  color: #2794d7;
+  font-size: 16px;
+}
+
+.bg-transparent {
+  background: transparent !important;
+}
+
+
+
+
+/*// end of common css */
+
+/* main css start */
+
+/* === header part start === */
+.header {
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: CircularStd-Medium;
+  color: #667284;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #444;
+}
+
+.header .top-btn .btn {
+  font-family: CircularStd-Medium;
+  color: #667284;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header .btn.sign-up {
+  background: #a0c200;
+  color: #fff;
+  padding: 15px 30px;
+  /* margin-right: ; */
+}
+/* ===//end of header part === */
+
+
+/* === banner part start === */
+.banner {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background: url(../images/banner-bg.png) no-repeat bottom center/cover;
+}
+
+.banner .bnr-img {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner .bnr-img img {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.banner h1 {
+  font-family: CircularStd-Black;
+  font-size: 40px;
+  color: #162c58;
+  font-weight: 900;
+  margin: 250px 0 0 0 
+}
+
+.banner p {
+  font-size: 20px;
+  color: #667284;
+}
+
+/* ===//end of banner part === */
+
+
+/* === ? part start === */
+
+/* ===//end of ? part === */
